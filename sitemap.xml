@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://daramaxservices.ca/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://daramaxservices.ca/general-construction-services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/design-and-construction-management/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/project-planning-to-close-out/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/interior-and-exterior-services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/full-house-remodeling/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/residential-commercial-industrial-properties/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/real-estate-services/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/design-consultation-and-support/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://daramaxservices.ca/project-management-and-site-planning/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://daramaxservices.ca/commercial-renovation-toronto/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://daramaxservices.ca/hotel-motel-renovation-toronto/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://daramaxservices.ca/property-management-renovation/</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -12,4 +21,6 @@
   <url><loc>https://daramaxservices.ca/renovation-contractor-vaughan/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://daramaxservices.ca/renovation-contractor-markham/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://daramaxservices.ca/safety/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://daramaxservices.ca/projects/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://daramaxservices.ca/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
