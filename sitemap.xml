@@ -23,4 +23,7 @@
   <url><loc>https://daramaxservices.ca/safety/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://daramaxservices.ca/projects/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://daramaxservices.ca/contact/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://daramaxservices-boop.github.io/terms-and-conditions/</loc>
+  </url>
 </urlset>
