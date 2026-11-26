@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Our Projects | Daramax</title>
-<meta name="description" content="A sample of the renovation work we do across Ontario. Browse by project type.">
+<meta name="description" content="A sample of the renovation work we do across Ontario. Browse Interior or Exterior work.">
 <link rel="canonical" href="https://daramaxservices.ca/projects/">
 <link rel="stylesheet" href="../assets/css/style.css">
 <script type="application/ld+json">
@@ -51,7 +51,7 @@
   <div class="container">
     <p class="breadcrumb"><a href="../index.html">Home</a> › Projects</p>
     <h1>Our Projects</h1>
-    <p>A sample of the renovation work we do across Ontario. Browse by project type.</p>
+    <p>A sample of the renovation work we do across Ontario. Browse Interior or Exterior work.</p>
   </div>
 </section>
 
@@ -59,34 +59,36 @@
   <div class="container">
     <p class="eyebrow">Portfolio</p>
     <h2>Our Recent Projects</h2>
-    <p class="lead">A sample of the renovation work we do across Ontario. Browse by project type.</p>
+    <p class="lead">A sample of the renovation work we do across Ontario. Browse Interior or Exterior work.</p>
     <div class="filter-pills" role="group" aria-label="Filter projects">
-<button type="button" class="filter-pill active" data-filter="exterior">Exterior</button>
+<button type="button" class="filter-pill active" data-filter="all">All Projects</button>
 <button type="button" class="filter-pill" data-filter="interior">Interior</button>
-<button type="button" class="filter-pill" data-filter="kitchen">Kitchen</button>
-<button type="button" class="filter-pill" data-filter="bathroom">Bathroom</button>
-<button type="button" class="filter-pill" data-filter="basement">Basement</button>
-<button type="button" class="filter-pill" data-filter="garage">Garage</button>
-<button type="button" class="filter-pill" data-filter="living-room">Living Room</button>
-<button type="button" class="filter-pill" data-filter="office">Office</button>
-<button type="button" class="filter-pill" data-filter="stairs">Stairs</button>
-<button type="button" class="filter-pill" data-filter="bar">Bar</button>
-<button type="button" class="filter-pill" data-filter="full-home">Full Home</button>
+<button type="button" class="filter-pill" data-filter="exterior">Exterior</button>
 </div>
-    <div class="portfolio-grid" id="portfolio-grid">
-      <div class="portfolio-tile" data-category="exterior" data-img="../images/projects/exterior/exterior-1.jpg" data-alt="Exterior renovation by Daramax Services"><span>Exterior</span></div>
-      <div class="portfolio-tile" data-category="interior" data-img="../images/projects/interior/interior-1.jpg" data-alt="Interior renovation by Daramax Services"><span>Interior</span></div>
-      <div class="portfolio-tile" data-category="kitchen" data-img="../images/projects/interior/kitchen-1.jpg" data-alt="Kitchen renovation by Daramax Services"><span>Kitchen</span></div>
-      <div class="portfolio-tile" data-category="bathroom" data-img="../images/projects/interior/bathroom-1.jpg" data-alt="Bathroom renovation by Daramax Services"><span>Bathroom</span></div>
-      <div class="portfolio-tile" data-category="basement" data-img="../images/projects/interior/basement-1.jpg" data-alt="Basement renovation by Daramax Services"><span>Basement</span></div>
-      <div class="portfolio-tile" data-category="garage" data-img="../images/projects/interior/garage-1.jpg" data-alt="Garage renovation by Daramax Services"><span>Garage</span></div>
-      <div class="portfolio-tile" data-category="living-room" data-img="../images/projects/interior/living-room-1.jpg" data-alt="Living room renovation by Daramax Services"><span>Living Room</span></div>
-      <div class="portfolio-tile" data-category="office" data-img="../images/projects/interior/office-1.jpg" data-alt="Office renovation by Daramax Services"><span>Office</span></div>
-      <div class="portfolio-tile" data-category="stairs" data-img="../images/projects/interior/stairs-1.jpg" data-alt="Staircase renovation by Daramax Services"><span>Stairs</span></div>
-      <div class="portfolio-tile" data-category="bar" data-img="../images/projects/interior/bar-1.jpg" data-alt="Home bar renovation by Daramax Services"><span>Bar</span></div>
-      <div class="portfolio-tile" data-category="full-home" data-img="../images/projects/interior/full-home-1.jpg" data-alt="Full home renovation by Daramax Services"><span>Full Home</span></div>
-    </div>
-    <p class="portfolio-note">Project photos coming soon — ask us about recent work in your neighbourhood when you <a href="#quote">request a quote</a>.</p>
+    <div class="portfolio-groups">
+    <section class="portfolio-group" data-group="interior" aria-label="Interior projects">
+      <h3>Interior</h3>
+      <div class="portfolio-grid">
+      <div class="portfolio-tile show-full" data-category="kitchen" data-group="interior" data-img="../images/projects/interior/kitchen-1.jpg" data-alt="Kitchen renovation by Daramax Services"><span>Kitchen</span></div>
+      <div class="portfolio-tile has-icon" data-category="bathroom" data-group="interior"><span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18"/><path d="M4.5 12v1.5a4.5 4.5 0 0 0 4.5 4.5h6a4.5 4.5 0 0 0 4.5-4.5V12"/><path d="M7 12V6a2 2 0 0 1 2-2h1"/><path d="M8 18l-1 2M16 18l1 2"/></svg></span><span>Bathroom</span></div>
+      <div class="portfolio-tile show-full" data-category="basement" data-group="interior" data-img="../images/projects/interior/basement-1.jpg" data-alt="Basement renovation by Daramax Services"><span>Basement</span></div>
+      <div class="portfolio-tile show-full" data-category="basement" data-group="interior" data-img="../images/projects/interior/basement-2.jpg" data-alt="Basement renovation before and after by Daramax Services"><span>Basement</span></div>
+      <div class="portfolio-tile show-full" data-category="basement" data-group="interior" data-img="../images/projects/interior/basement-3.jpg" data-alt="Basement renovation before and after by Daramax Services"><span>Basement</span></div>
+      <div class="portfolio-tile has-icon" data-category="living-room" data-group="interior"><span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><path d="M2 16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5H6V11a2 2 0 0 0-4 0Z"/><path d="M4 18v2M20 18v2"/></svg></span><span>Living Room</span></div>
+      <div class="portfolio-tile has-icon" data-category="painting-drywall" data-group="interior"><span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4" width="13" height="5" rx="1.5"/><path d="M15.5 6.5h2.5a2 2 0 0 1 2 2v3"/><path d="M20 11.5V19a1.5 1.5 0 0 1-3 0v-4.5"/></svg></span><span>Painting, Plaster &amp; Drywall</span></div>
+      </div>
+    </section>
+    <section class="portfolio-group" data-group="exterior" aria-label="Exterior projects">
+      <h3>Exterior</h3>
+      <div class="portfolio-grid">
+      <div class="portfolio-tile has-icon" data-category="landscaping" data-group="exterior"><span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4.5"/><path d="M12 12.5V21"/><path d="M12 16c-2 0-3.5-1-4-2.5M12 15c2 0 3.5-1 4-2.5"/></svg></span><span>Landscaping</span></div>
+      <div class="portfolio-tile show-full" data-category="driveway-concrete" data-group="exterior" data-img="../images/projects/exterior/exterior-1.jpg" data-alt="Driveway and concrete work by Daramax Services"><span>Driveway &amp; Concrete</span></div>
+      <div class="portfolio-tile show-full" data-category="steps-stairs" data-group="exterior" data-img="../images/projects/exterior/stairs-1.jpg" data-alt="Staircase renovation by Daramax Services"><span>Steps &amp; Stairs</span></div>
+      <div class="portfolio-tile has-icon" data-category="garage" data-group="exterior"><span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V9l8-5 8 5v12"/><path d="M8 21v-8h8v8"/><path d="M10 15h4M10 17.5h4"/></svg></span><span>Garage</span></div>
+      </div>
+    </section>
+  </div>
+    <p class="portfolio-note">More project photos coming soon — ask us about recent work in your neighbourhood when you <a href="#quote">request a quote</a>.</p>
   </div>
 </section>
 
@@ -146,7 +148,7 @@
       </div>
       <div>
         <h4>Our Partner</h4>
-        <div class="partner-card"><p><strong>Daramax Junk Removal</strong></p></div>
+        <div class="partner-card"><img src="../images/junk-removal.jpg" alt="Daramax Junk Removal logo"></div>
       </div>
       <div>
         <h4>Real Estate Service Contact</h4>
@@ -201,14 +203,14 @@
     img.src = tile.getAttribute('data-img');
   });
 })();
-/* Project filter pills (Exterior is selected by default, as on the old site). */
+/* Project filter: All / Interior / Exterior groups. */
 (function () {
   var pills = document.querySelectorAll('.filter-pill');
   if (!pills.length) return;
   function apply(filter) {
-    document.querySelectorAll('.portfolio-tile').forEach(function (tile) {
-      var show = filter === 'all' || tile.getAttribute('data-category') === filter;
-      tile.classList.toggle('hidden', !show);
+    document.querySelectorAll('.portfolio-group').forEach(function (group) {
+      var show = filter === 'all' || group.getAttribute('data-group') === filter;
+      group.classList.toggle('hidden', !show);
     });
   }
   pills.forEach(function (pill) {
