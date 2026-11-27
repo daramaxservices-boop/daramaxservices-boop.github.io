@@ -15,6 +15,9 @@
 .lightbox img{max-width:94vw;max-height:82vh;object-fit:contain}
 .lightbox figcaption{color:#fff;margin-top:12px;font-size:1.05rem;text-align:center}
 .lightbox-close{position:absolute;top:14px;right:22px;background:none;border:none;color:#fff;font-size:2.4rem;cursor:pointer;line-height:1}
+/* Showcase video above the project grid. */
+.project-video{margin:26px 0 8px}
+.project-video video{width:100%;max-width:880px;display:block;margin:0 auto;border-radius:8px}
 </style>
 <script type="application/ld+json">
 {
@@ -69,6 +72,11 @@
     <p class="eyebrow">Portfolio</p>
     <h2>Our Recent Projects</h2>
     <p class="lead">A sample of the renovation work we do across Ontario. Browse Interior or Exterior work.</p>
+    <div class="project-video">
+      <video controls autoplay muted loop playsinline preload="metadata" poster="../images/projects/interior/kitchen-1.jpg" aria-label="Daramax Services project showcase video">
+        <source src="../images/daramax-showcase-long.mp4" type="video/mp4">
+      </video>
+    </div>
     <div class="filter-pills" role="group" aria-label="Filter projects">
 <button type="button" class="filter-pill active" data-filter="all">All Projects</button>
 <button type="button" class="filter-pill" data-filter="interior">Interior</button>
